@@ -1,0 +1,252 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+p {
+  margin: 0;
+}
+.contenedor {
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+.nav {
+  display: flex;
+  font-weight: 500;
+  margin: 4rem 15rem;
+  gap: 15rem;
+  font-size: 2.5rem;
+  align-items: center;
+}
+.text-nav {
+  text-decoration: none;
+  color: white;
+}
+.nombre {
+  font-size: 3rem;
+}
+.links {
+  display: flex;
+  gap: 5rem;
+  font-weight: 300;
+}
+
+/* INICIO */
+.perfil {
+  margin-top: 10rem;
+  text-align: center;
+}
+.nombreTitulo {
+  font-size: 6rem;
+  color: white;
+}
+.ocupacionTitulo {
+  font-size: 5rem;
+  /* background: linear-gradient(
+    50deg,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(255, 255, 255, 1) 63%
+  ); */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 1, 1, 1) 69%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imgProgramacion {
+  width: 50rem;
+  margin-left: 0rem;
+  position: relative;
+  bottom: 5rem;
+  padding-right: 1rem;
+}
+.imgTecno {
+  width: 7rem;
+}
+.tecno {
+  margin: 3rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.fade div {
+  animation: fadeIn 0.5s ease-in both;
+}
+.fade div:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.fade div:nth-child(3) {
+  animation-delay: 1s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* ACERCA DE MI */
+.descripcionDeMi {
+  color: white;
+  font-weight: 300;
+  font-size: 3rem;
+  padding: 0 3rem;
+}
+.subtitulo {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 1, 1, 1) 69%
+  );
+  /* background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 1, 1, 1) 34%
+  ); */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  margin-top: 2rem;
+}
+.formacion {
+  color: white;
+  font-size: 4rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.universidad {
+  color: white;
+  font-size: 3rem;
+  margin-left: 6rem;
+}
+.textoFormacion {
+  color: white;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-left: 6rem;
+}
+.redes{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+.logoRedes {
+  width: 4rem;
+}
+.linkRedes {
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+}
+.linkRedes:hover {
+  text-decoration: underline;
+}
+/* TECNOLOGIAS */
+.seccTecno {
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 300;
+}
+.tecno2 {
+  margin-bottom: 8rem;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+.imgTecno2 {
+  width: 8rem;
+}
+
+/* PROYECTOS */
+.subtituloProyecto {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 1, 1, 1) 69%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  margin-top: 2rem;
+}
+
+.descripcionProyecto {
+  color: white;
+  font-size: 3rem;
+  margin-left: 6rem;
+  font-weight: 300;
+}
+.imgRestaurant {
+  width: 80rem;
+  border: 0.1rem solid rgb(33, 20, 20);
+  border-radius: 0.5rem;
+}
+.divImgRes {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.desPor {
+  color: white;
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+.desCon {
+  color: white;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-left: 6rem;
+}
+.web {
+  color: white;
+  font-size: 4rem;
+  margin-left: 6rem;
+}
+.webLink {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  margin-left: 12rem;
+  font-weight: 300;
+}
+.webLink:hover {
+  text-decoration: underline;
+}
+.imgGithub {
+  width: 10rem;
+}
+.secDesCog {
+  display: flex;
+  justify-content: space-around;
+}
+.codigo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+/* Footer */
+.footer {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(197, 197, 197);
+  margin: 10rem 0 2rem 0;
+}
