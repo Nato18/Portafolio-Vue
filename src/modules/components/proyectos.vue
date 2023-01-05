@@ -2,13 +2,20 @@
   <div class="contenedor" id="Proyectos">
     <p class="subtituloProyecto">Proyectos Realizados</p>
     <p class="descripcionProyecto">
-      Aplicacion web para la gestion de mesas, clientes, personal y menu de un
+      Aplicación web para la gestión de mesas, clientes, personal y menu de un
       restaurant.
     </p>
-    <!-- <div>
+    <div>
       <p class="web">Web</p>
-      <a class="webLink" href="www.restaurante.com">www.restaurante.com</a>
-    </div> -->
+      <div class="webLinkDiv">
+        <a
+          class="webLink"
+          href="https://restaurante.up.railway.app"
+          target="_blank"
+          >restaurante.up.railway.app</a
+        >
+      </div>
+    </div>
     <div class="divImgRes">
       <img src="../../assets/restaurante.png" alt="" class="imgRestaurant" />
     </div>
@@ -21,7 +28,7 @@
         <p class="desCon">- CSS</p>
       </div>
       <div class="codigo">
-        <p class="desPor">Codigo</p>
+        <p class="desPor">Código</p>
         <a href="https://github.com/Nato18/proyecto-Restaurant" target="_blank"
           ><img src="../../assets/github-white.png" alt="" class="imgGithub"
         /></a>

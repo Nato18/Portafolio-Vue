@@ -14,14 +14,14 @@
     <div :class="{ activo: activar }">
       <div class="links">
         <a class="text-nav" href="#AcercaMi">Acerca de mi</a>
-        <a class="text-nav" href="#Tecnologias">Tecnologias</a>
+        <a class="text-nav" href="#Tecnologias">Tecnologías</a>
         <a class="text-nav" href="#Proyectos">Proyectos</a>
         <div class="source">
           <a
             class="text-nav"
             href="https://github.com/Nato18/Portafolio-Vue"
             target="_blank"
-            >Codigo</a
+            >Código</a
           >
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="contenedor"  id="Tecnologias">
-    <p class="subtitulo">Tecnologias</p>
+    <p class="subtitulo">Tecnologías</p>
     <p class="seccTecno">Lenguajes</p>
     <div class="tecno2">
       <img src="../../assets/js.svg" alt="" class="imgTecno2" />

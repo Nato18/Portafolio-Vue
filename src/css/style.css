@@ -386,6 +386,22 @@ p {
   .imgGithub {
     width: 7rem;
   }
+  .webLink {
+    text-decoration: none;
+    color: white;
+    font-size: 2.2rem;
+    margin-left: 0rem;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+  .webLinkDiv{
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+  .web{
+    display: none;
+  }
 }
 /* Footer */
 .footer {

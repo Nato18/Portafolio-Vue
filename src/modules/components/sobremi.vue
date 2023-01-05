@@ -4,12 +4,12 @@
     <p class="descripcionDeMi">
       Soy un apasionado desarrollador autodidacta que busca
       siempre crear nuevas aplicaciones y resolver problemas. Actualmente me
-      encuentro en busqueda de mi practica profesional.
+      encuentro en búsqueda de mi practica profesional.
     </p>
-    <p class="formacion">Formacion</p>
+    <p class="formacion">Formación</p>
     <p class="universidad">Universidad Andres Bello</p>
     <p class="textoFormacion">
-      Egresado de ingenieria en computacion e informatica
+      Egresado de ingeniería en computación e informática
     </p>
     <p class="textoFormacion">2019- Actualidad.</p>
     <div>
