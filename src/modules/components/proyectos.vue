@@ -5,10 +5,10 @@
       Aplicacion web para la gestion de mesas, clientes, personal y menu de un
       restaurant.
     </p>
-    <div>
+    <!-- <div>
       <p class="web">Web</p>
       <a class="webLink" href="www.restaurante.com">www.restaurante.com</a>
-    </div>
+    </div> -->
     <div class="divImgRes">
       <img src="../../assets/restaurante.png" alt="" class="imgRestaurant" />
     </div>
