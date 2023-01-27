@@ -111,6 +111,11 @@ p {
 }
 .imgTecno {
   width: 7rem;
+  transition: .5s;
+}
+.imgTecno:hover{
+  transition: .5s;
+  transform: scale(1.2);
 }
 .tecno {
   margin: 3rem;
@@ -271,6 +276,11 @@ p {
 }
 .imgTecno2 {
   width: 8rem;
+  transition: .5s;
+}
+.imgTecno2:hover{
+  transition: .5s;
+  transform: scale(1.2);
 }
 
 @media (max-width: 758px) {
