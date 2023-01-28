@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 p {
   margin: 0;
@@ -23,8 +24,9 @@ p {
 .text-nav {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
 }
-.source{
+.source {
   font-weight: 500;
 }
 .nombre {
@@ -52,10 +54,47 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    /* animation: fadeIn 0.5s ease-in both; */
+  }
+  .animacion {
+    position: fixed;
+    top: -110%;
+    /* padding-top: 10rem; */
+    height: 100vh;
+    width: 100%;
+    transition: all 0.5s;
+    background-image: linear-gradient(
+      to left bottom,
+      #000000,
+      #0f0104,
+      #190307,
+      #210408,
+      #270608,
+      #360b10,
+      #470d15,
+      #580f18,
+      #791620,
+      #9b1e28,
+      #bd282e,
+      #e13333
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .activo {
+    /* display: none; */
+    top: 0;
+    transition: all 0.5s;
   }
   .close {
-    width: 6rem;
-    display: none;
+    /* width: 6rem; */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+
   }
   .menuOdd {
     display: none;
@@ -64,6 +103,7 @@ p {
     display: flex;
     align-items: center;
     gap: 4rem;
+    z-index: 1;
   }
   .nombre {
     font-size: 2rem;
@@ -72,9 +112,10 @@ p {
     background-color: transparent;
     border: 0px;
   }
-  .activo {
-    display: none;
-    transition: margin-top .4s;
+
+  .boton-menu {
+    width: 3rem;
+    margin-top: 1.3rem;
   }
 }
 
@@ -89,11 +130,7 @@ p {
 }
 .ocupacionTitulo {
   font-size: 5rem;
-  /* background: linear-gradient(
-    50deg,
-    rgba(0, 0, 0, 1) 5%,
-    rgba(255, 255, 255, 1) 63%
-  ); */
+
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
@@ -111,10 +148,10 @@ p {
 }
 .imgTecno {
   width: 7rem;
-  transition: .5s;
+  transition: 0.5s;
 }
-.imgTecno:hover{
-  transition: .5s;
+.imgTecno:hover {
+  transition: 0.5s;
   transform: scale(1.2);
 }
 .tecno {
@@ -276,10 +313,10 @@ p {
 }
 .imgTecno2 {
   width: 8rem;
-  transition: .5s;
+  transition: 0.5s;
 }
-.imgTecno2:hover{
-  transition: .5s;
+.imgTecno2:hover {
+  transition: 0.5s;
   transform: scale(1.2);
 }
 
@@ -404,12 +441,12 @@ p {
     font-weight: 300;
     text-decoration: underline;
   }
-  .webLinkDiv{
+  .webLinkDiv {
     text-align: center;
     margin-top: 3.5rem;
     margin-bottom: 3.5rem;
   }
-  .web{
+  .web {
     display: none;
   }
 }

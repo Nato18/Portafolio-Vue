@@ -31,6 +31,7 @@
       <p class="formacion">Curriculum Vitae</p>
       <div class="redes">
         <a
+          target="_blank"
           class="linkRedes"
           href="https://drive.google.com/file/d/13cFGi8uVO6oKE3Gi_OMrSxNSmeJj5uVC/view?usp=share_link"
           >Ver Curricum Vitae</a

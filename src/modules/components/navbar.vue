@@ -4,18 +4,28 @@
       <a class="text-nav nombre" href="/">Renato Parraguez</a>
       <div class="menu">
         <button v-on:click="activar = !activar" class="boton ocultarPc">
-          <img src="../../assets/menu.png" alt="" />
+          <img src="../../assets/menu.png" class="boton-menu" alt="" />
         </button>
       </div>
-      <div class="close">
-        <img src="../../assets/close.png" alt="" class="ocultarPc" />
-      </div>
+
     </div>
-    <div :class="{ activo: activar }">
+    <div :class="{ activo: activar }" class="animacion">
+      <div class="close">
+        <button v-on:click="activar = !activar" class="boton ocultarPc">
+          <img src="../../assets/close.png" alt="" class="ocultarPc" />
+        </button>
+      </div>
+
       <div class="links">
-        <a class="text-nav" href="#AcercaMi">Acerca de mi</a>
-        <a class="text-nav" href="#Tecnologias">Tecnologías</a>
-        <a class="text-nav" href="#Proyectos">Proyectos</a>
+        <a class="text-nav" href="#AcercaMi" v-on:click="activar = !activar"
+          >Acerca de mi</a
+        >
+        <a class="text-nav" href="#Tecnologias" v-on:click="activar = !activar"
+          >Tecnologías</a
+        >
+        <a class="text-nav" href="#Proyectos" v-on:click="activar = !activar"
+          >Proyectos</a
+        >
         <div class="source">
           <a
             class="text-nav"
@@ -33,7 +43,7 @@
 export default {
   data() {
     return {
-      activar: true,
+      activar: false,
     };
   },
 };
